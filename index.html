@@ -2,13 +2,23 @@
 <html>
 <head>
 <title>First Webpage</title>
+    <style>
+    .blueText {
+      color: blue;
+    }
+
+    #uniqueGreen {
+      color: green;
+    }
+  </style>
+
 </head>
 <body>
-<h2>Resume of Md. Hasnat Hasib</h2>
-Address: Block - E, House No- 60, N.S Town,Jssore.<br/>
+<h2 class="blueText">Resume of Md. Hasnat Hasib</h2>
+<p id="uniqueGreen">Address: Block - E, House No- 60, N.S Town,Jssore.</p><br/>
 Mobile No: 01911073982<br/>
 
-<h2>Education Qualification
+<h2 style=“text-align: center;”>Education Qualification
 </h2>
 <br/>
 Bachelor of Science in Computer Science and Engineering<br/>
@@ -19,10 +29,10 @@ Independent University, Bangladesh.<br/>
 <img src="tree.png"/ height= 200px>
 <table border="1">
     <tr>
-        <th>Name of the Exam</th>
-        <th>Name of the Institute</th>
-        <th>Group</th>
-        <th>Board</th>
+        <th id="uniqueGreen">Name of the Exam</th>
+        <th id="uniqueGreen">Name of the Institute</th>
+        <th id="uniqueGreen">Group</th>
+        <th id="uniqueGreen">Board</th>
     </tr>
     <tr>
         <td>HSC</td>
@@ -31,7 +41,7 @@ Independent University, Bangladesh.<br/>
         <td>Jessore</td>
     </tr>
 </table>
-<h2>Programming Skills
+<h2 style=“text-align: center;”>Programming Skills
 </h2>
 <br/>
 <ul>
@@ -42,6 +52,17 @@ Independent University, Bangladesh.<br/>
        java, c#
     </li>
 </ul>
+<br/><br/>
+ <div style="background-color:lightblue">
+  <h3 class="blueText">This is a heading</h3>
+  <p>This is a paragraph.</p>
+</div> 
+    
+
+<form>
+    <p id="uniqueGreen">Form</p>
+    Username:<input type="text" name="username" value=" "/>
+</form>
 
 </body>
 </html>
